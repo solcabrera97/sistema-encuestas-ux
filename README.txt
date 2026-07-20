@@ -1,10 +1,10 @@
-# Sistema de Gestión y Análisis de Métricas UX 📊
+# Sistema de Gestión y Análisis de Métricas
 
 Este proyecto es una aplicación de escritorio desarrollada íntegramente en **Python** para la recolección, gestión y análisis cuantitativo de métricas de Experiencia de Usuario (UX) y Satisfacción del Cliente (CSAT). 
 
 Está diseñado para asegurar la integridad de los datos desde el momento de la carga (Data Entry) hasta la visualización de resultados (Data Analytics), evitando sesgos de tipeo mediante listas cerradas y validaciones estructurales.
 
-## 🚀 Características Principales
+## Características Principales
 
 * **CRUD Completo:** Alta, lectura, modificación y archivo de registros.
 * **Baja Lógica (Soft Delete):** Implementación de borrado seguro en base de datos para mantener el historial de auditoría y evitar la ruptura de IDs.
@@ -12,7 +12,7 @@ Está diseñado para asegurar la integridad de los datos desde el momento de la 
 * **Generación de Reportes Automáticos:** Procesamiento de la matriz de datos para calcular distribuciones de frecuencias y exportación a PDF con `fpdf`.
 * **Visualización de Datos:** Creación de gráficos analíticos (barras y tortas) utilizando `matplotlib` para ilustrar la Tasa de Finalización de Tareas y el CSAT.
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 * **Lenguaje:** Python 3.x
 * **Base de Datos:** SQLite3 (Relacional, embebida)
@@ -20,12 +20,6 @@ Está diseñado para asegurar la integridad de los datos desde el momento de la 
 * **Librerías Externas:** `matplotlib` (Data Viz), `fpdf` (Reportes)
 * **Arquitectura:** Modular (Separación en Interfaz, Base de Datos y Motor Analítico)
 
-## 🎯 Enfoque Profesional
-
-El sistema fue construido con foco en las siguientes áreas:
-1. **Data Analytics:** Procesamiento de datos crudos para extraer insights cuantitativos (tasas de éxito, adopción por dispositivo).
-2. **UX Research:** Estandarización de instrumentos de recolección para testeos con usuarios.
-3. **Bases de Datos:** Estructuración relacional, prevención de errores de carga y mantenimiento de la integridad referencial.
 
 ## ⚙️ Instrucciones de Uso
 
